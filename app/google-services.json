@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "835778187983",
+    "project_id": "pense-responda",
+    "storage_bucket": "pense-responda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835778187983:android:0350523d7a20d2a35f5dba",
+        "android_client_info": {
+          "package_name": "com.example.pense_responda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835778187983-b2nnunaokdaj3aik28p3ab9ut6ffbtcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWJo7mBDPccxVlA4j7yZagBCTDUUlIzzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835778187983-b2nnunaokdaj3aik28p3ab9ut6ffbtcg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
