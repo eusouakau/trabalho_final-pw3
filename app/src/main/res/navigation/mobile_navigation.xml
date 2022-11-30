@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.pense_responda.fragment.HomeFragment"
+        android:textColor="@color/verde_limao2"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_cadastrarFragment"
+        android:name="com.example.pense_responda.fragment.CadastrarFragment"
+        android:textColor="@color/verde_limao2"
+        android:label="@string/resp"
+        tools:layout="@layout/fragment_responder">
+        <action
+            android:id="@+id/action_nav_cadastrarFragment_to_nav_listarFragment2"
+            app:destination="@id/nav_listarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_listarFragment"
+        android:name="com.example.pense_responda.fragment.ListarFragment"
+        android:textColor="@color/verde_limao2"
+        android:label="@string/btnHistRes"
+        tools:layout="@layout/fragment_listar"/>
+    <fragment
+        android:id="@+id/nav_editarFragment"
+        android:name="com.example.pense_responda.fragment.EditarFragment"
+        android:label="EditarFragment"
+        android:textColor="@color/verde_limao2"
+        tools:layout="@layout/fragment_editar">
+        <action
+            android:id="@+id/action_nav_editarFragment_to_nav_listarFragment"
+            app:destination="@id/nav_listarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_responderFragment"
+        android:name="com.example.pense_responda.fragment.CadastrarFragment"
+        android:label="@string/resp"
+        android:textColor="@color/verde_limao2"
+        tools:layout="@layout/fragment_responder">
+        <action
+            android:id="@+id/action_nav_responderFragment_to_nav_listarFragment"
+            app:destination="@id/nav_listarFragment" />
+    </fragment>
+
+</navigation>
