@@ -16,7 +16,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/cinza1"
+            android:background="@color/verde_limao1"
             app:popupTheme="@style/Theme.AppCompat.DayNight.Dialog" />
 
     </com.google.android.material.appbar.AppBarLayout>
