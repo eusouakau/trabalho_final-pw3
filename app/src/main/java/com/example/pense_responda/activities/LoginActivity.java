@@ -60,9 +60,6 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private Boolean usuarioLogado(){
-        //Se o usuário já está logado não precisa fazer login novamente
-        Log.d("Login", "instance"+ FirebaseAuth.getInstance());
-        //se o usuário não está logado retorna null, se o user já está logado ele retorna os dados de autenticação
         FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
         if(currentUser == null) return false;
         return true;
@@ -77,7 +74,6 @@ public class LoginActivity extends AppCompatActivity {
                     Toast.makeText(LoginActivity.this, "sucesso!", Toast.LENGTH_SHORT).show();
                 }else{
                     Toast.makeText(LoginActivity.this, "Dados de login inválidos!", Toast.LENGTH_SHORT).show();
-                    Log.d("LOGIN", "dados inválidos!");
                 }
             }
         });
@@ -87,4 +83,5 @@ public class LoginActivity extends AppCompatActivity {
         Intent intent = new Intent(LoginActivity.this, MainActivity.class);
         startActivity(intent);
     }
+
 }
