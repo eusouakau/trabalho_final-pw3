@@ -18,6 +18,7 @@
         app:srcCompat="@drawable/logo" />
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -30,15 +31,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/cinza1"
-            android:textColor="@color/branco"
             android:layout_margin="5dp"
             android:hint="@string/email"
+            android:textColorHint="@color/cinza7"
+            android:textColor="@color/cinza7"
             android:id="@+id/edtEmail"
             android:inputType="textEmailAddress"
             />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:counterEnabled="true"
@@ -54,11 +57,14 @@
             android:layout_margin="5dp"
             android:backgroundTint="@color/cinza1"
             android:hint="@string/senha"
+            android:textColorHint="@color/cinza7"
+            android:textColor="@color/cinza7"
             android:inputType="textPassword"
             />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutConfSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:counterEnabled="true"
@@ -72,6 +78,8 @@
             android:backgroundTint="@color/cinza1"
             android:id="@+id/edtConfSenha"
             android:hint="@string/senha"
+            android:textColorHint="@color/cinza7"
+            android:textColor="@color/cinza7"
             android:layout_margin="5dp"
             android:inputType="textPassword"
             />
@@ -83,7 +91,7 @@
         android:textColor="@color/cinza1"
         android:layout_margin="5dp"
         android:padding="10dp"
-        app:cornerRadius="100dp"
+        app:cornerRadius="8dp"
         android:background="@color/verde_limao1"
         style="?android:attr/borderlessButtonStyle"
         android:hint="@string/btnCad"
