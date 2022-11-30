@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="vertical"
+    android:background="@color/cinza2"
+    android:gravity="center"
+    android:theme="@style/Theme.Penseresponda"
+    >
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/logo" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        app:boxBackgroundColor="@null">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtEmail"
+            android:backgroundTint="@color/cinza1"
+            android:layout_margin="5dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:boxBackgroundColor="@null">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtSenha"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/cinza1"
+            android:hint="@string/senha"
+            android:inputType="textPassword"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
+        android:textColor="@color/cinza1"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:background="@color/verde_limao1"
+        style="?android:attr/borderlessButtonStyle"
+        android:hint="@string/btnEntrar"
+        />
+
+    <Button
+        android:id="@+id/btnCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/btnCad"
+        android:textColor="@color/cinza1"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:background="@color/cinza5"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+</LinearLayout>
