@@ -18,6 +18,7 @@
         app:srcCompat="@drawable/logo" />
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -31,11 +32,14 @@
             android:backgroundTint="@color/cinza1"
             android:layout_margin="5dp"
             android:hint="@string/email"
+            android:textColorHint="@color/cinza7"
+            android:textColor="@color/cinza7"
             android:inputType="textEmailAddress"
             />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
@@ -47,6 +51,8 @@
             android:layout_margin="5dp"
             android:backgroundTint="@color/cinza1"
             android:hint="@string/senha"
+            android:textColorHint="@color/cinza7"
+            android:textColor="@color/cinza7"
             android:inputType="textPassword"
             />
     </com.google.android.material.textfield.TextInputLayout>
