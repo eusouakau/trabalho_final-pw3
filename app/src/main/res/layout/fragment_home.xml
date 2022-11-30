@@ -21,7 +21,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:layout_marginBottom="@dimen/margin"
-        android:padding="10dp"
+        android:paddingLeft="44dp"
+        android:paddingRight="44dp"
         android:text="@string/btnVisPerg"
         android:background="@color/azul"/>
 
@@ -31,6 +32,7 @@
         android:layout_height="wrap_content"
         android:text="@string/btnHistRes"
         android:layout_margin="20dp"
-        android:padding="10dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
         android:background="@color/verde_limao1"/>
 </androidx.appcompat.widget.LinearLayoutCompat>
