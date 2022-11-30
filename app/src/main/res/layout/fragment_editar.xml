@@ -2,55 +2,67 @@
 
 <androidx.appcompat.widget.LinearLayoutCompat  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/layoutLogin"
+    android:id="@+id/layoutEditar"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/cinza1"
     android:layout_margin="@dimen/margin"
+    android:theme="@style/Theme.Penseresponda"
     >
 
+    <TextView
+        android:id="@+id/textPergunta"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textColor="@color/cinza7"
+        android:text="@string/pergunta" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
+        android:id="@+id/layoutResposta"
         android:layout_height="wrap_content"
-        android:id="@+id/layoutNome"
-        app:counterEnabled="true"
-        app:counterMaxLength="60"
-        android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
-        app:boxBackgroundColor="@null"
-        >
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtNome"
-            android:hint="@string/nome"
-            android:inputType="textPersonName" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/layoutEndereco"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
-        android:maxLength="100"
-        app:boxBackgroundColor="@null"
-        >
+        app:boxBackgroundColor="@null">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/txtEnd"
-            android:hint="@string/email"
-            android:inputType="textPersonName" />
+            android:hint="@string/escreva"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/preto"
+            android:textColorHint="@color/preto"
+            android:backgroundTint="@color/cinza7"
+            android:id="@+id/edtResposta" />
     </com.google.android.material.textfield.TextInputLayout>
+
+
     <Button
         android:id="@+id/btnEdit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Editar"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:cornerRadius="100dp"
+        android:background="@color/verde_limao1"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="@string/editar"
       />
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/btnCancel"
+        android:background="@color/cinza5"
+        android:textColor="@color/cinza1"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginTop="10dp"
+        />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
