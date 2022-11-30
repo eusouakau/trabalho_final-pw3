@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">pense-responda</string>
+    <string name="app_name">Pense e Responda</string>
+    <string name="nome">Nome</string>
+    <string name="email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="btnCad">CADASTRAR</string>
+    <string name="btnEntrar">ENTRAR</string>
+    <string name="btnVisPerg">VISUALIZAR PERGUNTA</string>
+    <string name="btnHistRes">HISTÓRICO DE RESPOSTAS</string>
+    <string name="btnSalvar">SALVAR</string>
+    <string name="btnCancel">CANCELAR</string>
+    <string name="btnEdit">EDITAR</string>
+    <string name="btnExcluir">EXCLUIR</string>
+    <string name="resp">RESPONDER</string>
+    <string name="editar">EDITAR PERFIL</string>
+    <string name="btnEnviar">ENVIAR</string>
+    <string name="escreva">Escreva sua resposta...</string>
+    <string name="ok">OK</string>
+    <string name="action_logout">Sair</string>
+    <string name="pergunta">pergunta</string>
 </resources>
