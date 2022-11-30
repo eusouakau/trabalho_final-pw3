@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@color/cinza2"
+    android:gravity="center">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/buttonVisualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="@dimen/margin"
+        android:padding="10dp"
+        android:text="@string/btnVisPerg"
+        android:background="@color/azul"/>
+
+    <Button
+        android:id="@+id/buttonHistorico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnHistRes"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@color/verde_limao1"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
