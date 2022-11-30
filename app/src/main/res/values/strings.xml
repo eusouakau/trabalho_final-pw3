@@ -6,16 +6,18 @@
     <string name="btnCad">CADASTRAR</string>
     <string name="btnEntrar">ENTRAR</string>
     <string name="btnVisPerg">VISUALIZAR PERGUNTA</string>
-    <string name="btnHistRes">HISTÓRICO DE RESPOSTAS</string>
+    <string name="btnHistRes">Histórico de Respostas</string>
     <string name="btnSalvar">SALVAR</string>
     <string name="btnCancel">CANCELAR</string>
     <string name="btnEdit">EDITAR</string>
     <string name="btnExcluir">EXCLUIR</string>
-    <string name="resp">RESPONDER</string>
+    <string name="resp">Responder</string>
     <string name="editar">EDITAR PERFIL</string>
     <string name="btnEnviar">ENVIAR</string>
     <string name="escreva">Escreva sua resposta...</string>
     <string name="ok">OK</string>
     <string name="action_logout">Sair</string>
-    <string name="pergunta">pergunta</string>
+    <string name="pergunta">Como você está se sentindo hoje?</string>
+    <string name="home">Home</string>
+    <string name="sobre">Sobre</string>
 </resources>
